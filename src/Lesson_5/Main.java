@@ -17,7 +17,7 @@ public class Main {
         System.out.println("Еды в миске: " + bowl.getFoodAmount());
 
         cat1.eatFromBowl(bowl);
-        System.out.println("Кот 1 сыт: " + !cat1.isHungry());
+        System.out.println("Cat 1 сыт: " + !cat1.isHungry());
         System.out.println("Еды в миске: " + bowl.getFoodAmount());
 
         cat2.eatFromBowl(bowl);
