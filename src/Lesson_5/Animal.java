@@ -12,11 +12,11 @@ class Animal {
     }
 
     public void run(int distance) {
-        System.out.println("Животное пробежало " + distance + " м.");
+        System.out.println("The animal has run " + distance + " м.");
     }
 
     public void swim(int distance) {
-        System.out.println("Животное проплыло " + distance + " м.");
+        System.out.println("The animal has swum " + distance + " м.");
     }
 }
 
@@ -34,14 +34,14 @@ class Cat extends Animal {
 
     public void run(int distance) {
         if (distance <= 200) {
-            System.out.println("Кот пробежал " + distance + " м.");
+            System.out.println("The cat has run " + distance + " м.");
         } else {
-            System.out.println("Кот не может пробежать " + distance + " м.");
+            System.out.println("The cat can't run " + distance + " м.");
         }
     }
 
     public void swim(int distance) {
-        System.out.println("Кот не умеет плавать.");
+        System.out.println("The cat can't swim.");
     }
 
     public boolean eatFromBowl(FoodBowl bowl) {
@@ -71,17 +71,17 @@ class Dog extends Animal {
 
     public void run(int distance) {
         if (distance <= 500) {
-            System.out.println("Собака пробежала " + distance + " м.");
+            System.out.println("The dog has run " + distance + " м.");
         } else {
-            System.out.println("Собака не может пробежать " + distance + " м.");
+            System.out.println("The dog can't run " + distance + " м.");
         }
     }
 
     public void swim(int distance) {
         if (distance <= 10) {
-            System.out.println("Собака проплыла " + distance + " м.");
+            System.out.println("The dog has swum " + distance + " м.");
         } else {
-            System.out.println("Собака не может проплыть " + distance + " м.");
+            System.out.println("The dog can't swim " + distance + " м.");
         }
     }
 }

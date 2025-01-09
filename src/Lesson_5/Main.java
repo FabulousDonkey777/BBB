@@ -14,19 +14,19 @@ public class Main {
         dog1.swim(5);
 
         FoodBowl bowl = new FoodBowl(5);
-        System.out.println("Еды в миске: " + bowl.getFoodAmount());
+        System.out.println("Food in the bowl: " + bowl.getFoodAmount());
 
         cat1.eatFromBowl(bowl);
-        System.out.println("Cat 1 сыт: " + !cat1.isHungry());
-        System.out.println("Еды в миске: " + bowl.getFoodAmount());
+        System.out.println("Cat 1 is full: " + !cat1.isHungry());
+        System.out.println("Food in the bowl: " + bowl.getFoodAmount());
 
         cat2.eatFromBowl(bowl);
-        System.out.println("Кот 2 сыт: " + !cat2.isHungry());
-        System.out.println("Еды в миске: " + bowl.getFoodAmount());
+        System.out.println("Cat 2 is full: " + !cat2.isHungry());
+        System.out.println("Food in the bowl: " + bowl.getFoodAmount());
 
-        System.out.println("Всего животных: " + Animal.getAnimalCount());
-        System.out.println("Всего котов: " + Cat.getCatCount());
-        System.out.println("Всего собак: " + Dog.getDogCount());
+        System.out.println("All animals: " + Animal.getAnimalCount());
+        System.out.println("All cats: " + Cat.getCatCount());
+        System.out.println("All dogs: " + Dog.getDogCount());
         System.out.println();
         System.out.println();
         Shape circle = new Circle(5, "Red", "Black");

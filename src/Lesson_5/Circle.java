@@ -10,10 +10,10 @@ interface Shape {
     String getBorderColor();
 
     default void printDetails() {
-        System.out.println("Периметр: " + calculatePerimeter());
-        System.out.println("Площадь: " + calculateArea());
-        System.out.println("Цвет заливки: " + getFillColor());
-        System.out.println("Цвет границы: " + getBorderColor());
+        System.out.println("Perimeter: " + calculatePerimeter());
+        System.out.println("Square: " + calculateArea());
+        System.out.println("Filling colour: " + getFillColor());
+        System.out.println("Boundary colour: " + getBorderColor());
     }
 }
 
