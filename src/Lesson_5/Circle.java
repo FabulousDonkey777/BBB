@@ -2,8 +2,11 @@ package Lesson_5;
 
 interface Shape {
     double calculatePerimeter();
+
     double calculateArea();
+
     String getFillColor();
+
     String getBorderColor();
 
     default void printDetails() {
@@ -104,5 +107,3 @@ class Triangle implements Shape {
         return borderColor;
     }
 }
-
-

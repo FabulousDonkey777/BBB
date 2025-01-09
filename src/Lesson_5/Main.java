@@ -27,13 +27,8 @@ public class Main {
         System.out.println("Всего животных: " + Animal.getAnimalCount());
         System.out.println("Всего котов: " + Cat.getCatCount());
         System.out.println("Всего собак: " + Dog.getDogCount());
-
-
         System.out.println();
         System.out.println();
-        System.out.println();
-
-
         Shape circle = new Circle(5, "Red", "Black");
         Shape rectangle = new Rectangle(4, 6, "Blue", "Green");
         Shape triangle = new Triangle(3, 4, 5, "Yellow", "Purple");
