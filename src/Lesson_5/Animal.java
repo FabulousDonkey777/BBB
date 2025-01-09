@@ -1,4 +1,5 @@
 package Lesson_5;
+
 class Animal {
     private static int animalCount = 0;
 
@@ -104,3 +105,4 @@ class FoodBowl {
         foodAmount += amount;
     }
 }
+
