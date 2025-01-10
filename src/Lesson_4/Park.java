@@ -6,12 +6,11 @@ public class Park {
     private ArrayList<Attraction> attractions;
 
     public Park() {
-        attractions = new ArrayList<>();
-        // Добавляем некоторые аттракционы по умолчанию
-        attractions.add(new Attraction("Каруселька", "18-19", 5));
-        attractions.add(new Attraction("Колесо обозрения", "19-20", 10));
-        attractions.add(new Attraction("Коняшки", "19-21", 15));
-        attractions.add(new Attraction("Горка американская", "21-24", 500));
+        attractions = new ArrayList<>(); // Adding some default attractions
+        attractions.add(new Attraction("Carousel", "18-19", 5));
+        attractions.add(new Attraction("Ferris Wheel", "19-20", 10));
+        attractions.add(new Attraction("Horses", "19-21", 15));
+        attractions.add(new Attraction("Roller Coaster", "21-24", 500));
     }
 
     public void addAttraction(String name, String schedule, int cost) {
@@ -30,7 +29,7 @@ public class Park {
         }
 
         public String getInfo() {
-            return "Информация по аттракционам парка: " + name + " " + schedule + " " + cost;
+            return "Attraction information: " + name + " " + schedule + " " + cost;
         }
     }
 
@@ -40,13 +39,12 @@ public class Park {
         }
     }
 
-    public static void printall() {
+    public static void printAll() {
         Park park = new Park();
         park.printInfo();
-
-        // Добавляем новый аттракцион
-        park.addAttraction("Водная горка", "10-22", 300);
-        System.out.println("После добавления нового аттракциона:");
+        // Adding a new attraction
+        park.addAttraction("Water Slide", "10-22", 300);
+        System.out.println("After adding a new attraction:");
         park.printInfo();
     }
 }

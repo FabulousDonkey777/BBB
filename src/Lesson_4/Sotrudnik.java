@@ -17,15 +17,12 @@ public class Sotrudnik {
         this.vozrast = vozrast;
     }
 
-
     public void printInfo() {
-        System.out.println("ФИО: " + fio);
-        System.out.println("Должность: " + dolzhnost);
+        System.out.println("Full Name: " + fio);
+        System.out.println("Position: " + dolzhnost);
         System.out.println("Email: " + email);
-        System.out.println("Телефон: " + telefon);
-        System.out.println("Зарплата: " + zarplata);
-        System.out.println("Возраст: " + vozrast);
+        System.out.println("Phone: " + telefon);
+        System.out.println("Salary: " + zarplata);
+        System.out.println("Age: " + vozrast);
     }
-
-
 }
