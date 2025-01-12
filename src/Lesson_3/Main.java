@@ -37,7 +37,7 @@ public class Main {
         System.out.println();
 
         Task8 task8 = new Task8();
-        task8.print("ABC", 10);
+        task8.print("ABCD", 10);
         System.out.println();
 
         Task9 task9 = new Task9();
